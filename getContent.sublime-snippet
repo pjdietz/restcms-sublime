@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+GET /articles/${1:articleId}/content
+Host: ${2:$TM_RESTCMS_HOSTNAME}
+Authorization: restcms
+${3:$TM_RESTCMS_AUTH_HEADER}
+]]></content>
+<description>RESTCMS: Read the content of an article</description>
+</snippet>

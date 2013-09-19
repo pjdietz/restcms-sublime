@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>name</key>
+    <string>Globals</string>
+    <key>scope</key>
+    <string></string>
+    <key>settings</key>
+    <dict>
+        <key>shellVariables</key>
+        <array>
+            <dict>
+                <key>name</key>
+                <string>TM_RESTCMS_HOSTNAME</string>
+                <key>value</key>
+                <string>cms.myhostname.com</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>TM_RESTCMS_AUTH_HEADER</string>
+                <key>value</key>
+                <string>X-restcms-auth: username=USERNAME; passwordHash=HASH</string>
+            </dict>
+        </array>
+    </dict>
+</dict>
+<key>uuid</key>
+<string>7412997c-1f17-4fd5-a7f0-8ec9f214b1fc</string>
+</plist>
